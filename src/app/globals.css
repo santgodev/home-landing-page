@@ -1,26 +1,106 @@
 @import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@custom-variant dark (&:is(.dark *));
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --font-sans: var(--font-sans);
   --font-mono: var(--font-geist-mono);
+  
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --color-brand-primary: #051F20;
+  --color-brand-secondary: #0B2B26;
+  --color-brand-accent: #163832;
+  --color-brand-green-secondary: #235347;
+  --color-brand-soft: #8EB69B;
+  --color-brand-light: #DAF1DE;
+  
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+:root, .dark {
+  --background: #051F20;
+  --foreground: #DAF1DE;
+  --card: #0B2B26;
+  --card-foreground: #DAF1DE;
+  --popover: #0B2B26;
+  --popover-foreground: #DAF1DE;
+  --primary: #8EB69B;
+  --primary-foreground: #051F20;
+  --secondary: #163832;
+  --secondary-foreground: #DAF1DE;
+  --muted: #163832;
+  --muted-foreground: #8EB69B;
+  --accent: #235347;
+  --accent-foreground: #DAF1DE;
+  --destructive: #ff4b4b;
+  --destructive-foreground: #ffffff;
+  --border: #163832;
+  --input: #163832;
+  --ring: #8EB69B;
+  --radius: 0.75rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased selection:bg-brand-soft selection:text-brand-primary;
+  }
+  
+  /* Remove scrollbar for smooth premium feel */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #051F20;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #163832;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #235347;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Base Utility Classes for Glassmorphism & Effects */
+@layer utilities {
+  .glass {
+    @apply bg-brand-secondary/40 backdrop-blur-xl border border-brand-accent/50 shadow-[0_8px_32px_0_rgba(0,0,0,0.3)];
+  }
+  .glass-card {
+    @apply bg-gradient-to-br from-brand-secondary/80 to-brand-primary/90 backdrop-blur-md border border-brand-accent/30 hover:border-brand-soft/50 transition-all duration-500;
+  }
+  .neon-glow {
+    @apply shadow-[0_0_15px_rgba(142,182,155,0.3)] hover:shadow-[0_0_25px_rgba(142,182,155,0.5)] transition-shadow duration-300;
+  }
+  .text-glow {
+    text-shadow: 0 0 10px rgba(142,182,155,0.5);
+  }
 }

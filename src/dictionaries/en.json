@@ -1,0 +1,120 @@
+{
+  "hero": {
+    "badge": "Premium Tech Agency",
+    "title1": "Software that",
+    "titleHighlight": "grows",
+    "title2": "your business.",
+    "description": "We build websites, mobile apps, enterprise systems and AI solutions that transform ideas into scalable digital products.",
+    "scheduleMeeting": "Schedule a Meeting",
+    "viewProjects": "View Projects",
+    "trustedBy": "Trusted by industry leaders"
+  },
+  "services": {
+    "title1": "Capabilities that define",
+    "titleHighlight": "excellence",
+    "description": "We deliver end-to-end technological solutions designed to scale, secure, and accelerate your business growth.",
+    "items": [
+      {
+        "title": "Web Development",
+        "description": "High-performance, modern web applications built with scalable architectures."
+      },
+      {
+        "title": "Mobile Applications",
+        "description": "Native and cross-platform mobile experiences that users love."
+      },
+      {
+        "title": "Enterprise Systems",
+        "description": "Robust internal tools and platforms tailored for complex business needs."
+      },
+      {
+        "title": "Artificial Intelligence",
+        "description": "Intelligent AI agents, LLM integrations, and predictive models."
+      },
+      {
+        "title": "API Integrations",
+        "description": "Seamless connections between your favorite tools and custom software."
+      },
+      {
+        "title": "Cloud Infrastructure",
+        "description": "Secure, scalable, and optimized cloud deployments on AWS & GCP."
+      }
+    ]
+  },
+  "whyChooseUs": {
+    "stats": [
+      { "label": "Projects Delivered", "value": 150, "suffix": "+" },
+      { "label": "Active Clients", "value": 45, "suffix": "" },
+      { "label": "Years of Experience", "value": 10, "suffix": "+" },
+      { "label": "Support Availability", "value": 24, "suffix": "/7" }
+    ]
+  },
+  "featuredProjects": {
+    "title1": "Featured",
+    "titleHighlight": "Projects",
+    "description": "A selection of our most impactful work, demonstrating our ability to engineer complex solutions.",
+    "viewAll": "View All Work",
+    "projects": [
+      {
+        "title": "Aura AI Platform",
+        "category": "Artificial Intelligence",
+        "tech": ["Next.js", "Python", "OpenAI", "AWS"]
+      },
+      {
+        "title": "Nexus Enterprise",
+        "category": "Enterprise Systems",
+        "tech": ["React", "Spring Boot", "PostgreSQL"]
+      },
+      {
+        "title": "Nova Fintech App",
+        "category": "Mobile Applications",
+        "tech": ["React Native", "Node.js", "GraphQL"]
+      }
+    ]
+  },
+  "technologyStack": {
+    "title1": "Engineering",
+    "titleHighlight": "Excellence",
+    "description": "Powered by modern, enterprise-grade technologies",
+    "technologies": ["Angular", "Spring Boot", "PostgreSQL", "Docker", "AWS", "OpenAI", "TypeScript", "Java"]
+  },
+  "process": {
+    "title1": "Our",
+    "titleHighlight": "Process",
+    "description": "A systematic approach to engineering extraordinary digital products.",
+    "stepPrefix": "Step",
+    "steps": [
+      { "title": "Discovery", "description": "Understanding your business goals, target audience, and technical requirements." },
+      { "title": "Planning", "description": "Architecting the solution and defining the technical roadmap and milestones." },
+      { "title": "Design", "description": "Creating premium user interfaces and seamless user experiences." },
+      { "title": "Development", "description": "Writing scalable, secure, and performant code using modern stacks." },
+      { "title": "Testing", "description": "Rigorous quality assurance, automated testing, and security audits." },
+      { "title": "Launch", "description": "Smooth deployment to production and continuous post-launch support." }
+    ]
+  },
+  "testimonials": {
+    "title1": "Client",
+    "titleHighlight": "Testimonials",
+    "items": [
+      {
+        "quote": "They didn't just build software; they transformed our entire digital infrastructure. The quality is truly Apple-level.",
+        "author": "Sarah Jenkins",
+        "role": "CTO, TechNova"
+      },
+      {
+        "quote": "The attention to detail and modern aesthetic they brought to our SaaS platform helped us double our conversion rate in 3 months.",
+        "author": "Marcus Chen",
+        "role": "Founder, DataFlow AI"
+      },
+      {
+        "quote": "Premium work from a premium team. They understood our complex enterprise needs and delivered a flawless system.",
+        "author": "Elena Rodriguez",
+        "role": "VP Engineering, GlobalCorp"
+      }
+    ]
+  },
+  "contactCTA": {
+    "title1": "Let's build something",
+    "titleHighlight": "extraordinary.",
+    "button": "Start Your Project"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "hero": {
+    "badge": "Agencia Tecnológica Premium",
+    "title1": "Software que",
+    "titleHighlight": "escala",
+    "title2": "tu negocio.",
+    "description": "Creamos sitios web, aplicaciones móviles, sistemas empresariales y soluciones de IA que transforman ideas en productos digitales escalables.",
+    "scheduleMeeting": "Agendar Reunión",
+    "viewProjects": "Ver Proyectos",
+    "trustedBy": "Con la confianza de líderes de la industria"
+  },
+  "services": {
+    "title1": "Capacidades que definen la",
+    "titleHighlight": "excelencia",
+    "description": "Entregamos soluciones tecnológicas integrales diseñadas para escalar, asegurar y acelerar el crecimiento de tu negocio.",
+    "items": [
+      {
+        "title": "Desarrollo Web",
+        "description": "Aplicaciones web modernas y de alto rendimiento construidas con arquitecturas escalables."
+      },
+      {
+        "title": "Aplicaciones Móviles",
+        "description": "Experiencias móviles nativas y multiplataforma que los usuarios aman."
+      },
+      {
+        "title": "Sistemas Empresariales",
+        "description": "Herramientas y plataformas internas robustas adaptadas a necesidades comerciales complejas."
+      },
+      {
+        "title": "Inteligencia Artificial",
+        "description": "Agentes inteligentes de IA, integraciones de LLM y modelos predictivos."
+      },
+      {
+        "title": "Integraciones de API",
+        "description": "Conexiones perfectas entre tus herramientas favoritas y software personalizado."
+      },
+      {
+        "title": "Infraestructura Cloud",
+        "description": "Despliegues en la nube seguros, escalables y optimizados en AWS y GCP."
+      }
+    ]
+  },
+  "whyChooseUs": {
+    "stats": [
+      { "label": "Proyectos Entregados", "value": 150, "suffix": "+" },
+      { "label": "Clientes Activos", "value": 45, "suffix": "" },
+      { "label": "Años de Experiencia", "value": 10, "suffix": "+" },
+      { "label": "Soporte Disponible", "value": 24, "suffix": "/7" }
+    ]
+  },
+  "featuredProjects": {
+    "title1": "Proyectos",
+    "titleHighlight": "Destacados",
+    "description": "Una selección de nuestro trabajo más impactante, demostrando nuestra capacidad para diseñar soluciones complejas.",
+    "viewAll": "Ver Todo el Trabajo",
+    "projects": [
+      {
+        "title": "Plataforma Aura AI",
+        "category": "Inteligencia Artificial",
+        "tech": ["Next.js", "Python", "OpenAI", "AWS"]
+      },
+      {
+        "title": "Nexus Enterprise",
+        "category": "Sistemas Empresariales",
+        "tech": ["React", "Spring Boot", "PostgreSQL"]
+      },
+      {
+        "title": "App Fintech Nova",
+        "category": "Aplicaciones Móviles",
+        "tech": ["React Native", "Node.js", "GraphQL"]
+      }
+    ]
+  },
+  "technologyStack": {
+    "title1": "Excelencia en",
+    "titleHighlight": "Ingeniería",
+    "description": "Impulsado por tecnologías modernas de grado empresarial",
+    "technologies": ["Angular", "Spring Boot", "PostgreSQL", "Docker", "AWS", "OpenAI", "TypeScript", "Java"]
+  },
+  "process": {
+    "title1": "Nuestro",
+    "titleHighlight": "Proceso",
+    "description": "Un enfoque sistemático para la ingeniería de productos digitales extraordinarios.",
+    "stepPrefix": "Paso",
+    "steps": [
+      { "title": "Descubrimiento", "description": "Comprendiendo tus objetivos comerciales, público objetivo y requisitos técnicos." },
+      { "title": "Planificación", "description": "Arquitecturando la solución y definiendo la hoja de ruta técnica y los hitos." },
+      { "title": "Diseño", "description": "Creando interfaces de usuario premium y experiencias de usuario fluidas." },
+      { "title": "Desarrollo", "description": "Escribiendo código escalable, seguro y de alto rendimiento utilizando stacks modernos." },
+      { "title": "Pruebas", "description": "Aseguramiento de calidad riguroso, pruebas automatizadas y auditorías de seguridad." },
+      { "title": "Lanzamiento", "description": "Despliegue fluido a producción y soporte continuo posterior al lanzamiento." }
+    ]
+  },
+  "testimonials": {
+    "title1": "Testimonios de",
+    "titleHighlight": "Clientes",
+    "items": [
+      {
+        "quote": "No solo construyeron software; transformaron toda nuestra infraestructura digital. La calidad es verdaderamente de nivel Apple.",
+        "author": "Sarah Jenkins",
+        "role": "CTO, TechNova"
+      },
+      {
+        "quote": "La atención al detalle y la estética moderna que aportaron a nuestra plataforma SaaS nos ayudó a duplicar nuestra tasa de conversión en 3 meses.",
+        "author": "Marcus Chen",
+        "role": "Fundador, DataFlow AI"
+      },
+      {
+        "quote": "Trabajo premium de un equipo premium. Entendieron nuestras complejas necesidades empresariales y entregaron un sistema impecable.",
+        "author": "Elena Rodriguez",
+        "role": "VP de Ingeniería, GlobalCorp"
+      }
+    ]
+  },
+  "contactCTA": {
+    "title1": "Construyamos algo",
+    "titleHighlight": "extraordinario.",
+    "button": "Iniciar tu Proyecto"
+  }
+}
