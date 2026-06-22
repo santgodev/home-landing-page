@@ -1,120 +1,192 @@
 {
-  "hero": {
-    "badge": "Agencia Tecnológica Premium",
-    "title1": "Software que",
-    "titleHighlight": "escala",
-    "title2": "tu negocio.",
-    "description": "Creamos sitios web, aplicaciones móviles, sistemas empresariales y soluciones de IA que transforman ideas en productos digitales escalables.",
-    "scheduleMeeting": "Agendar Reunión",
-    "viewProjects": "Ver Proyectos",
-    "trustedBy": "Con la confianza de líderes de la industria"
+  "header": {
+    "logo": "Colombian Home",
+    "links": ["Apps Móviles", "Landing Pages", "Software a la Medida"],
+    "cta": "Empezar"
   },
-  "services": {
-    "title1": "Capacidades que definen la",
-    "titleHighlight": "excelencia",
-    "description": "Entregamos soluciones tecnológicas integrales diseñadas para escalar, asegurar y acelerar el crecimiento de tu negocio.",
-    "items": [
+  "hero": {
+    "badge": "Agencia de Crecimiento Tecnológico",
+    "headline": "Tu negocio está perdiendo dinero todos los días.",
+    "description": "Inventarios desactualizados, facturas perdidas, procesos manuales y falta de control financiero están frenando tu crecimiento. Construimos software que te devuelve el control.",
+    "primaryCTA": "Cotiza tu Sistema",
+    "secondaryCTA": "Ver cómo funciona",
+    "sequence": [
+      "Desarrollo de Software a la Medida",
+      "Aplicaciones Web, Móviles y Automatización"
+    ],
+    "indicators": ["Más control", "Menos errores", "Más ventas", "Más rentabilidad"]
+  },
+  "painPoints": {
+    "title": "¿Te identificas con alguno de estos problemas?",
+    "points": [
+      "No sabes cuánto inventario tienes realmente.",
+      "Pierdes ventas por falta de stock o descontrol.",
+      "Todo se maneja peligrosamente en hojas de Excel."
+    ]
+  },
+  "customSoftware": {
+    "title1": "Deja de adaptar tu negocio al software. ",
+    "titleHighlight": "Nosotros adaptamos el software a tu negocio.",
+    "description": "Cada negocio es diferente. Tu sistema operativo también debería serlo.",
+    "industries": [
       {
-        "title": "Desarrollo Web",
-        "description": "Aplicaciones web modernas y de alto rendimiento construidas con arquitecturas escalables."
+        "name": "Restaurantes",
+        "features": ["Control de mesas", "Pedidos", "Cocina", "Facturación", "Inventario"]
       },
       {
-        "title": "Aplicaciones Móviles",
-        "description": "Experiencias móviles nativas y multiplataforma que los usuarios aman."
+        "name": "Ferreterías",
+        "features": ["Inventario", "Compras", "Ventas", "Proveedores"]
       },
       {
-        "title": "Sistemas Empresariales",
-        "description": "Herramientas y plataformas internas robustas adaptadas a necesidades comerciales complejas."
+        "name": "Distribuidoras",
+        "features": ["Control de rutas", "Facturación", "Cartera"]
       },
       {
-        "title": "Inteligencia Artificial",
-        "description": "Agentes inteligentes de IA, integraciones de LLM y modelos predictivos."
-      },
-      {
-        "title": "Integraciones de API",
-        "description": "Conexiones perfectas entre tus herramientas favoritas y software personalizado."
-      },
-      {
-        "title": "Infraestructura Cloud",
-        "description": "Despliegues en la nube seguros, escalables y optimizados en AWS y GCP."
+        "name": "Empresas de Servicios",
+        "features": ["CRM", "Seguimiento comercial", "Automatización"]
       }
     ]
   },
-  "whyChooseUs": {
+  "mobileApps": {
+    "title1": "Tus clientes viven ",
+    "titleHighlight": "en su celular.",
+    "description": "Si tu negocio no está en el bolsillo de tus clientes, estás perdiendo oportunidades todos los días.",
+    "apps": ["App para restaurantes", "App para domicilios", "App financiera", "App de reservas", "App de membresías", "App educativa"]
+  },
+  "optimizedLanding": {
+    "title1": "Potencia tu emprendimiento con ",
+    "titleHighlight": "tu propia página web.",
+    "before": {
+      "title": "Antes",
+      "traffic": "1000 visitas",
+      "conversions": "10 clientes"
+    },
+    "after": {
+      "title": "Después",
+      "traffic": "1000 visitas",
+      "conversions": "80 clientes"
+    },
+    "features": [
+      {
+        "id": "hero",
+        "title": "Más clientes para tu negocio",
+        "desc": "Transformamos visitantes en oportunidades reales de venta.",
+        "metric": "+80%",
+        "metricLabel": "Más oportunidades de negocio",
+        "highlight": true
+      },
+      {
+        "id": "seo",
+        "title": "Aparece en Google",
+        "desc": "Haz que las personas te encuentren antes que a tu competencia.",
+        "metric": "#1",
+        "metricLabel": "En búsquedas de Google"
+      },
+      {
+        "id": "speed",
+        "title": "Sitio web ultrarrápido",
+        "desc": "Una experiencia fluida que evita perder clientes.",
+        "metric": "<1s",
+        "metricLabel": "Tiempo de carga"
+      },
+      {
+        "id": "whatsapp",
+        "title": "Clientes contactándote 24/7",
+        "desc": "Formularios y WhatsApp trabajando para ti automáticamente.",
+        "metric": "1 clic",
+        "metricLabel": "Contacto por WhatsApp"
+      },
+      {
+        "id": "automation",
+        "title": "Automatización inteligente",
+        "desc": "Menos tareas manuales, más tiempo para crecer.",
+        "metric": "24/7",
+        "metricLabel": "Captación automática"
+      }
+    ]
+  },
+  "customRules": {
+    "badge": "Software a la Medida",
+    "title": "Desarrollamos software adaptado a las reglas de tu negocio.",
+    "desc": "Creamos soluciones personalizadas que se ajustan a tus procesos, objetivos y forma de trabajar. Tu empresa no tiene que adaptarse al software; el software se adapta a tu empresa.",
+    "sequence": [
+      "La plataforma operativa para tu Restaurante",
+      "El centro de control digital para tu Empresa",
+      "Sistemas inteligentes a la medida de tu negocio"
+    ]
+  },
+  "impactStats": {
     "stats": [
-      { "label": "Proyectos Entregados", "value": 150, "suffix": "+" },
-      { "label": "Clientes Activos", "value": 45, "suffix": "" },
-      { "label": "Años de Experiencia", "value": 10, "suffix": "+" },
-      { "label": "Soporte Disponible", "value": 24, "suffix": "/7" }
+      { "value": "95", "suffix": "%", "label": "de los problemas operativos pueden automatizarse." },
+      { "value": "40", "suffix": "%", "label": "menos tiempo en tareas repetitivas." },
+      { "value": "3", "suffix": "X", "label": "más velocidad operativa en tu negocio." },
+      { "value": "24", "suffix": "/7", "label": "acceso a información clave en tiempo real." }
+    ]
+  },
+  "visualUseCases": {
+    "title1": "Diseñamos sistemas que",
+    "titleHighlight": "inspiran y controlan.",
+    "description": "Interfaces impactantes enfocadas en la usabilidad de tus empleados y clientes.",
+    "cases": [
+      { "title": "Inventarios", "type": "Dashboards" },
+      { "title": "Facturación", "type": "Finanzas" },
+      { "title": "POS para Restaurantes", "type": "Operación" },
+      { "title": "ERP a la Medida", "type": "Empresarial" },
+      { "title": "CRM de Ventas", "type": "Crecimiento" },
+      { "title": "Aplicaciones Móviles", "type": "Clientes" }
     ]
   },
   "featuredProjects": {
-    "title1": "Proyectos",
-    "titleHighlight": "Destacados",
-    "description": "Una selección de nuestro trabajo más impactante, demostrando nuestra capacidad para diseñar soluciones complejas.",
-    "viewAll": "Ver Todo el Trabajo",
+    "title1": "La herramienta exacta que",
+    "titleHighlight": "tu negocio necesita",
+    "description": "No te conformes con plantillas. Diseñamos soluciones digitales de alta gama adaptadas a tu marca.",
+    "viewAll": "Cotizar ahora",
     "projects": [
       {
-        "title": "Plataforma Aura AI",
-        "category": "Inteligencia Artificial",
-        "tech": ["Next.js", "Python", "OpenAI", "AWS"]
+        "title": "Sistemas Financieros Inteligentes",
+        "category": "Finanzas & Control",
+        "tech": ["Dashboards en tiempo real", "Alta seguridad", "Análisis de rentabilidad"]
       },
       {
-        "title": "Nexus Enterprise",
-        "category": "Sistemas Empresariales",
-        "tech": ["React", "Spring Boot", "PostgreSQL"]
+        "title": "Software para Gestión Empresarial",
+        "category": "Operación & ERP",
+        "tech": ["Diseños modernos", "Automatización total", "Reportes dinámicos"]
       },
       {
-        "title": "App Fintech Nova",
-        "category": "Aplicaciones Móviles",
-        "tech": ["React Native", "Node.js", "GraphQL"]
+        "title": "Apps Móviles Propias",
+        "category": "Ventas & Clientes",
+        "tech": ["Experiencia Premium", "Fidelización", "Ventas 24/7"]
       }
     ]
   },
-  "technologyStack": {
-    "title1": "Excelencia en",
-    "titleHighlight": "Ingeniería",
-    "description": "Impulsado por tecnologías modernas de grado empresarial",
-    "technologies": ["Angular", "Spring Boot", "PostgreSQL", "Docker", "AWS", "OpenAI", "TypeScript", "Java"]
-  },
-  "process": {
-    "title1": "Nuestro",
-    "titleHighlight": "Proceso",
-    "description": "Un enfoque sistemático para la ingeniería de productos digitales extraordinarios.",
-    "stepPrefix": "Paso",
-    "steps": [
-      { "title": "Descubrimiento", "description": "Comprendiendo tus objetivos comerciales, público objetivo y requisitos técnicos." },
-      { "title": "Planificación", "description": "Arquitecturando la solución y definiendo la hoja de ruta técnica y los hitos." },
-      { "title": "Diseño", "description": "Creando interfaces de usuario premium y experiencias de usuario fluidas." },
-      { "title": "Desarrollo", "description": "Escribiendo código escalable, seguro y de alto rendimiento utilizando stacks modernos." },
-      { "title": "Pruebas", "description": "Aseguramiento de calidad riguroso, pruebas automatizadas y auditorías de seguridad." },
-      { "title": "Lanzamiento", "description": "Despliegue fluido a producción y soporte continuo posterior al lanzamiento." }
-    ]
-  },
   "testimonials": {
-    "title1": "Testimonios de",
-    "titleHighlight": "Clientes",
+    "title1": "No confíes en promesas,",
+    "titleHighlight": "confía en resultados.",
     "items": [
       {
-        "quote": "No solo construyeron software; transformaron toda nuestra infraestructura digital. La calidad es verdaderamente de nivel Apple.",
-        "author": "Sarah Jenkins",
-        "role": "CTO, TechNova"
+        "quote": "Pasamos de llevar inventario en cuadernos a controlar de forma automatizada más de 5.000 productos. Nuestras pérdidas desaparecieron.",
+        "author": "Carlos Gómez",
+        "role": "CEO, Ferreterías Unidas"
       },
       {
-        "quote": "La atención al detalle y la estética moderna que aportaron a nuestra plataforma SaaS nos ayudó a duplicar nuestra tasa de conversión en 3 meses.",
-        "author": "Marcus Chen",
-        "role": "Fundador, DataFlow AI"
+        "quote": "Redujimos los errores de facturación en un 90%. El sistema se pagó solo en los primeros 3 meses de uso.",
+        "author": "Mariana Ruiz",
+        "role": "Directora Financiera, Logística Global"
       },
       {
-        "quote": "Trabajo premium de un equipo premium. Entendieron nuestras complejas necesidades empresariales y entregaron un sistema impecable.",
-        "author": "Elena Rodriguez",
-        "role": "VP de Ingeniería, GlobalCorp"
+        "quote": "Ahora sabemos exactamente cuánto ganamos cada día. El dashboard nos muestra márgenes en tiempo real. Increíble.",
+        "author": "Andrés Felipe",
+        "role": "Dueño, Grupo Gastronómico"
       }
     ]
   },
   "contactCTA": {
-    "title1": "Construyamos algo",
-    "titleHighlight": "extraordinario.",
-    "button": "Iniciar tu Proyecto"
+    "urgencyTitle": "Descubre el verdadero potencial de tu operación.",
+    "urgencySub": "Sistemas inteligentes diseñados para optimizar tus procesos, aumentar tu rentabilidad y darte tranquilidad total.",
+    "urgencyBtn": "Solicitar Cotización",
+    "finalTitle1": "Lleva tu negocio ",
+    "finalTitleHighlight": "al siguiente nivel.",
+    "finalSub": "Software a la medida. Aplicaciones móviles. Experiencias digitales de alta gama.",
+    "finalBtn": "Hablar con un especialista"
   }
 }

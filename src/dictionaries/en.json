@@ -1,120 +1,192 @@
 {
-  "hero": {
-    "badge": "Premium Tech Agency",
-    "title1": "Software that",
-    "titleHighlight": "grows",
-    "title2": "your business.",
-    "description": "We build websites, mobile apps, enterprise systems and AI solutions that transform ideas into scalable digital products.",
-    "scheduleMeeting": "Schedule a Meeting",
-    "viewProjects": "View Projects",
-    "trustedBy": "Trusted by industry leaders"
+  "header": {
+    "logo": "Colombian Home",
+    "links": ["Mobile Apps", "Landing Pages", "Custom Software"],
+    "cta": "Get Started"
   },
-  "services": {
-    "title1": "Capabilities that define",
-    "titleHighlight": "excellence",
-    "description": "We deliver end-to-end technological solutions designed to scale, secure, and accelerate your business growth.",
-    "items": [
+  "hero": {
+    "badge": "Technology Growth Agency",
+    "headline": "Your business is losing money every single day.",
+    "description": "Outdated inventories, lost invoices, manual processes, and lack of financial control are stunting your growth. We build software that gives you control back.",
+    "primaryCTA": "Quote Your System",
+    "secondaryCTA": "See how it works",
+    "sequence": [
+      "Custom Software Development",
+      "Web Apps, Mobile Apps, and Automation"
+    ],
+    "indicators": ["More control", "Fewer errors", "More sales", "Higher profitability"]
+  },
+  "painPoints": {
+    "title": "Do you identify with any of these problems?",
+    "points": [
+      "You don't know how much inventory you really have.",
+      "You lose sales due to lack of stock or control.",
+      "Everything is dangerously managed in Excel sheets."
+    ]
+  },
+  "customSoftware": {
+    "title1": "Stop adapting your business to the software. ",
+    "titleHighlight": "We adapt the software to your business.",
+    "description": "Every business is different. Your operating system should be too.",
+    "industries": [
       {
-        "title": "Web Development",
-        "description": "High-performance, modern web applications built with scalable architectures."
+        "name": "Restaurants",
+        "features": ["Table management", "Orders", "Kitchen displays", "Billing", "Inventory"]
       },
       {
-        "title": "Mobile Applications",
-        "description": "Native and cross-platform mobile experiences that users love."
+        "name": "Hardware Stores",
+        "features": ["Inventory", "Purchases", "Sales", "Suppliers"]
       },
       {
-        "title": "Enterprise Systems",
-        "description": "Robust internal tools and platforms tailored for complex business needs."
+        "name": "Distributors",
+        "features": ["Route control", "Billing", "Accounts receivable"]
       },
       {
-        "title": "Artificial Intelligence",
-        "description": "Intelligent AI agents, LLM integrations, and predictive models."
-      },
-      {
-        "title": "API Integrations",
-        "description": "Seamless connections between your favorite tools and custom software."
-      },
-      {
-        "title": "Cloud Infrastructure",
-        "description": "Secure, scalable, and optimized cloud deployments on AWS & GCP."
+        "name": "Service Companies",
+        "features": ["CRM", "Sales tracking", "Automation"]
       }
     ]
   },
-  "whyChooseUs": {
+  "mobileApps": {
+    "title1": "Your clients live ",
+    "titleHighlight": "on their phones.",
+    "description": "If your business isn't in your customers' pockets, you are losing opportunities every day.",
+    "apps": ["Restaurant App", "Delivery App", "Financial App", "Booking App", "Membership App", "Educational App"]
+  },
+  "optimizedLanding": {
+    "title1": "A pretty page doesn't sell.",
+    "titleHighlight": "An optimized page does.",
+    "before": {
+      "title": "Before",
+      "traffic": "1000 visits",
+      "conversions": "10 clients"
+    },
+    "after": {
+      "title": "After",
+      "traffic": "1000 visits",
+      "conversions": "80 clients"
+    },
+    "features": [
+      {
+        "id": "hero",
+        "title": "More Customers for Your Business",
+        "desc": "We transform visitors into real sales opportunities.",
+        "metric": "+80%",
+        "metricLabel": "More business opportunities",
+        "highlight": true
+      },
+      {
+        "id": "seo",
+        "title": "Get Found Before Your Competitors",
+        "desc": "Appear exactly where your customers are already searching.",
+        "metric": "#1",
+        "metricLabel": "On Google Search"
+      },
+      {
+        "id": "speed",
+        "title": "Ultra-Fast Load Times",
+        "desc": "A seamless, fluid experience that keeps visitors engaged.",
+        "metric": "<1s",
+        "metricLabel": "Page load speed"
+      },
+      {
+        "id": "whatsapp",
+        "title": "24/7 Active Inquiries",
+        "desc": "Connect forms and chat channels directly to your inbox.",
+        "metric": "1 click",
+        "metricLabel": "WhatsApp connection"
+      },
+      {
+        "id": "automation",
+        "title": "Intelligent Lead Capture",
+        "desc": "Cut manual tasks and automate your follow-ups.",
+        "metric": "24/7",
+        "metricLabel": "Automated capture"
+      }
+    ]
+  },
+  "customRules": {
+    "badge": "Custom Software",
+    "title": "We develop software tailored to your business rules.",
+    "desc": "We build custom solutions that fit your processes, goals, and way of working. Your company doesn't have to adapt to the software; the software adapts to your company.",
+    "sequence": [
+      "The custom operating system for your Restaurant",
+      "The digital control center for your Company",
+      "Intelligent software built for your business scale"
+    ]
+  },
+  "impactStats": {
     "stats": [
-      { "label": "Projects Delivered", "value": 150, "suffix": "+" },
-      { "label": "Active Clients", "value": 45, "suffix": "" },
-      { "label": "Years of Experience", "value": 10, "suffix": "+" },
-      { "label": "Support Availability", "value": 24, "suffix": "/7" }
+      { "value": "95", "suffix": "%", "label": "of operational problems can be automated." },
+      { "value": "40", "suffix": "%", "label": "less time spent on repetitive tasks." },
+      { "value": "3", "suffix": "X", "label": "more operational speed in your business." },
+      { "value": "24", "suffix": "/7", "label": "access to key information in real-time." }
+    ]
+  },
+  "visualUseCases": {
+    "title1": "We design systems that",
+    "titleHighlight": "inspire and control.",
+    "description": "Impactful interfaces focused on the usability of your employees and clients.",
+    "cases": [
+      { "title": "Inventories", "type": "Dashboards" },
+      { "title": "Billing", "type": "Finance" },
+      { "title": "Restaurant POS", "type": "Operations" },
+      { "title": "Custom ERP", "type": "Enterprise" },
+      { "title": "Sales CRM", "type": "Growth" },
+      { "title": "Mobile Apps", "type": "Clients" }
     ]
   },
   "featuredProjects": {
-    "title1": "Featured",
-    "titleHighlight": "Projects",
-    "description": "A selection of our most impactful work, demonstrating our ability to engineer complex solutions.",
-    "viewAll": "View All Work",
+    "title1": "The exact tool that",
+    "titleHighlight": "your business needs",
+    "description": "Don't settle for templates. We design high-end digital solutions tailored to your brand.",
+    "viewAll": "Get a quote",
     "projects": [
       {
-        "title": "Aura AI Platform",
-        "category": "Artificial Intelligence",
-        "tech": ["Next.js", "Python", "OpenAI", "AWS"]
+        "title": "Smart Financial Systems",
+        "category": "Finance & Control",
+        "tech": ["Real-time dashboards", "High security", "Profitability analysis"]
       },
       {
-        "title": "Nexus Enterprise",
-        "category": "Enterprise Systems",
-        "tech": ["React", "Spring Boot", "PostgreSQL"]
+        "title": "Enterprise Management Software",
+        "category": "Operations & ERP",
+        "tech": ["Modern designs", "Total automation", "Dynamic reports"]
       },
       {
-        "title": "Nova Fintech App",
-        "category": "Mobile Applications",
-        "tech": ["React Native", "Node.js", "GraphQL"]
+        "title": "Custom Mobile Apps",
+        "category": "Sales & Clients",
+        "tech": ["Premium Experience", "Loyalty", "24/7 Sales"]
       }
     ]
   },
-  "technologyStack": {
-    "title1": "Engineering",
-    "titleHighlight": "Excellence",
-    "description": "Powered by modern, enterprise-grade technologies",
-    "technologies": ["Angular", "Spring Boot", "PostgreSQL", "Docker", "AWS", "OpenAI", "TypeScript", "Java"]
-  },
-  "process": {
-    "title1": "Our",
-    "titleHighlight": "Process",
-    "description": "A systematic approach to engineering extraordinary digital products.",
-    "stepPrefix": "Step",
-    "steps": [
-      { "title": "Discovery", "description": "Understanding your business goals, target audience, and technical requirements." },
-      { "title": "Planning", "description": "Architecting the solution and defining the technical roadmap and milestones." },
-      { "title": "Design", "description": "Creating premium user interfaces and seamless user experiences." },
-      { "title": "Development", "description": "Writing scalable, secure, and performant code using modern stacks." },
-      { "title": "Testing", "description": "Rigorous quality assurance, automated testing, and security audits." },
-      { "title": "Launch", "description": "Smooth deployment to production and continuous post-launch support." }
-    ]
-  },
   "testimonials": {
-    "title1": "Client",
-    "titleHighlight": "Testimonials",
+    "title1": "Don't trust promises,",
+    "titleHighlight": "trust results.",
     "items": [
       {
-        "quote": "They didn't just build software; they transformed our entire digital infrastructure. The quality is truly Apple-level.",
-        "author": "Sarah Jenkins",
-        "role": "CTO, TechNova"
+        "quote": "We went from keeping inventory in notebooks to automatically controlling over 5,000 products. Our losses disappeared.",
+        "author": "Carlos Gomez",
+        "role": "CEO, United Hardware"
       },
       {
-        "quote": "The attention to detail and modern aesthetic they brought to our SaaS platform helped us double our conversion rate in 3 months.",
-        "author": "Marcus Chen",
-        "role": "Founder, DataFlow AI"
+        "quote": "We reduced billing errors by 90%. The system paid for itself within the first 3 months of use.",
+        "author": "Mariana Ruiz",
+        "role": "CFO, Global Logistics"
       },
       {
-        "quote": "Premium work from a premium team. They understood our complex enterprise needs and delivered a flawless system.",
-        "author": "Elena Rodriguez",
-        "role": "VP Engineering, GlobalCorp"
+        "quote": "Now we know exactly how much we make every day. The dashboard shows real-time margins. Incredible.",
+        "author": "Andres Felipe",
+        "role": "Owner, Gastronomic Group"
       }
     ]
   },
   "contactCTA": {
-    "title1": "Let's build something",
-    "titleHighlight": "extraordinary.",
-    "button": "Start Your Project"
+    "urgencyTitle": "Discover the true potential of your operation.",
+    "urgencySub": "Intelligent systems designed to optimize your processes, increase your profitability, and give you total peace of mind.",
+    "urgencyBtn": "Request Quote",
+    "finalTitle1": "Take your business ",
+    "finalTitleHighlight": "to the next level.",
+    "finalSub": "Custom software. Mobile applications. High-end digital experiences.",
+    "finalBtn": "Talk to a specialist"
   }
 }

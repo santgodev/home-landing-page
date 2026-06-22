@@ -28,16 +28,32 @@ const projects = [
   }
 ];
 
-export function FeaturedProjects({ dict }: { dict: any }) {
+interface ProjectItem {
+  title: string;
+  category: string;
+  tech: string[];
+}
+
+interface FeaturedProjectsProps {
+  dict: {
+    title1: string;
+    titleHighlight: string;
+    description: string;
+    viewAll: string;
+    projects: ProjectItem[];
+  };
+}
+
+export function FeaturedProjects({ dict }: FeaturedProjectsProps) {
   // Merge colors/images with dictionary data
-  const projectsData = dict.projects.map((item: any, index: number) => ({
+  const projectsData = dict.projects.map((item: ProjectItem, index: number) => ({
     ...item,
     image: projects[index].image,
     color: projects[index].color
   }));
 
   return (
-    <section className="py-32 relative bg-brand-primary">
+    <section className="py-32 relative bg-brand-primary border-t border-white/5">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-end mb-20">
           <div className="max-w-2xl">
@@ -70,7 +86,7 @@ export function FeaturedProjects({ dict }: { dict: any }) {
         </div>
 
         <div className="space-y-12 md:space-y-24">
-          {projectsData.map((project: any, index: number) => (
+          {projectsData.map((project, index: number) => (
             <motion.div
               key={project.title}
               initial={{ opacity: 0, y: 40 }}
@@ -91,7 +107,12 @@ export function FeaturedProjects({ dict }: { dict: any }) {
                     src={project.image} 
                     alt={project.title}
                     fill
-                    className="object-cover opacity-80 group-hover:scale-110 group-hover:opacity-100 transition-all duration-1000"
+                    sizes="(max-width: 768px) 100vw, 60vw"
+                    className={`opacity-80 transition-all duration-1000 group-hover:opacity-100 ${
+                      index === 1
+                        ? "object-contain scale-[1.30] group-hover:scale-[1.35]"
+                        : "object-cover group-hover:scale-110"
+                    }`}
                   />
                 ) : (
                   <div className="w-full h-full flex items-center justify-center text-brand-accent/50 group-hover:scale-105 transition-transform duration-1000 relative z-10">
