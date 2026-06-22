@@ -58,20 +58,20 @@ export function OptimizedLanding({ dict }: OptimizedLandingProps) {
   }, [index]);
 
   return (
-    <section className="py-24 relative bg-brand-secondary overflow-hidden border-t border-white/5">
+    <section className="py-8 md:py-24 relative bg-brand-secondary overflow-hidden border-t border-white/5">
       {/* Subtle ambient glow circles */}
       <div className="absolute inset-0 -z-10 overflow-hidden pointer-events-none opacity-30">
         <div className="absolute top-1/4 left-1/4 w-[500px] h-[500px] bg-brand-soft/5 rounded-full blur-[120px] mix-blend-screen" />
         <div className="absolute bottom-1/4 right-1/4 w-[600px] h-[600px] bg-brand-green-secondary/5 rounded-full blur-[150px] mix-blend-screen" />
       </div>
 
-      <div className="container mx-auto px-6">
-        <div className="text-center max-w-4xl mx-auto mb-12">
+      <div className="container mx-auto px-4 md:px-6">
+        <div className="text-center max-w-4xl mx-auto mb-8 md:mb-12">
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 animate-fade-in"
+            className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 md:mb-6 animate-fade-in"
           >
             {dict.title1} <span className="text-brand-soft">{dict.titleHighlight}</span>
           </motion.h2>
@@ -82,7 +82,7 @@ export function OptimizedLanding({ dict }: OptimizedLandingProps) {
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="relative max-w-5xl mx-auto mb-16 rounded-3xl overflow-hidden shadow-[0_0_50px_rgba(142,182,155,0.15)] border border-brand-accent/50 group bg-brand-secondary aspect-[16/10] w-full"
+          className="relative max-w-5xl mx-auto mb-8 md:mb-16 rounded-2xl md:rounded-3xl overflow-hidden shadow-[0_0_50px_rgba(142,182,155,0.15)] border border-brand-accent/50 group bg-brand-secondary aspect-[4/3] md:aspect-[16/10] w-full"
         >
           <div className="absolute inset-0 bg-brand-soft/10 group-hover:bg-transparent transition-colors duration-500 z-10 pointer-events-none" />
           
@@ -104,13 +104,13 @@ export function OptimizedLanding({ dict }: OptimizedLandingProps) {
           </AnimatePresence>
 
           {/* Carousel Indicators */}
-          <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-20 flex gap-2.5 bg-black/30 backdrop-blur-md px-4 py-2 rounded-full border border-white/10">
+          <div className="absolute bottom-4 md:bottom-6 left-1/2 -translate-x-1/2 z-20 flex gap-2 md:gap-2.5 bg-black/40 md:bg-black/30 backdrop-blur-md px-3 py-1.5 md:px-4 md:py-2 rounded-full border border-white/10">
             {images.map((_, idx) => (
               <button
                 key={idx}
                 onClick={() => setIndex(idx)}
-                className={`h-2 rounded-full transition-all duration-300 ${
-                  index === idx ? "w-6 bg-brand-soft" : "w-2 bg-white/40 hover:bg-white/60"
+                className={`h-1.5 md:h-2 rounded-full transition-all duration-300 ${
+                  index === idx ? "w-4 md:w-6 bg-brand-soft" : "w-1.5 md:w-2 bg-white/40 hover:bg-white/60"
                 }`}
                 aria-label={`Go to slide ${idx + 1}`}
               />
@@ -119,7 +119,7 @@ export function OptimizedLanding({ dict }: OptimizedLandingProps) {
         </motion.div>
 
         {/* Bento Grid Features */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto relative z-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-6 max-w-5xl mx-auto relative z-10">
           {dict.features.map((feature: FeatureItem, index: number) => {
             const isHero = feature.highlight;
             
@@ -135,58 +135,40 @@ export function OptimizedLanding({ dict }: OptimizedLandingProps) {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.05, duration: 0.5 }}
-                className={`${cardClass} p-8 bg-[#082221]/90 backdrop-blur-2xl border border-white/[0.04] rounded-3xl hover:border-brand-soft/30 hover:bg-[#0a2c2b] transition-all duration-500 group min-h-[220px]`}
+                className={`${cardClass} p-5 md:p-8 bg-[#082221]/90 backdrop-blur-2xl border border-white/[0.04] rounded-2xl md:rounded-3xl hover:border-brand-soft/30 hover:bg-[#0a2c2b] transition-all duration-500 group min-h-0 md:min-h-[220px]`}
               >
                 {isHero ? (
-                  // WIDE CARDS (Hero & Bottom full-width layouts)
+                  // WIDE CARDS (Hero layout)
                   <>
-                    <div className="flex flex-col justify-between flex-1 pr-0 md:pr-8">
-                      <div className="flex items-center gap-3 mb-4">
-                        <div className="text-brand-soft">
+                    <div className="flex flex-col justify-between flex-1 pr-0 text-left">
+                      <div className="flex items-center gap-2.5 md:gap-3 mb-2 md:mb-4 justify-start">
+                        <div className="text-brand-soft scale-90 md:scale-100 origin-left">
                           {getIconForFeature(feature.id)}
                         </div>
-                        <h4 className="text-lg md:text-xl font-semibold text-white tracking-tight">
+                        <h4 className="text-base md:text-2xl font-semibold text-white tracking-tight">
                           {feature.title}
                         </h4>
                       </div>
-                      <p className="text-sm text-brand-light/60 leading-relaxed max-w-xl">
+                      <p className="text-[13px] md:text-base text-brand-light/70 leading-relaxed max-w-2xl">
                         {feature.desc}
                       </p>
-                    </div>
-                    
-                    <div className="flex flex-col justify-end items-start md:items-end mt-6 md:mt-0 select-none border-t md:border-t-0 md:border-l border-white/[0.05] pt-4 md:pt-0 md:pl-8 min-w-[140px]">
-                      <div className="text-5xl md:text-6xl font-light text-brand-soft tracking-tighter text-glow">
-                        {feature.metric}
-                      </div>
-                      <div className="text-[10px] uppercase tracking-wider text-brand-light/40 mt-1 font-bold">
-                        {feature.metricLabel}
-                      </div>
                     </div>
                   </>
                 ) : (
-                  // SQUARE CARDS (Standard 1-column layouts)
+                  // SQUARE CARDS
                   <>
-                    <div>
-                      <div className="flex items-center gap-3 mb-3">
-                        <div className="text-brand-soft">
+                    <div className="flex flex-col h-full justify-start text-left">
+                      <div className="flex items-center gap-2.5 md:gap-3 mb-2 md:mb-4 justify-start">
+                        <div className="text-brand-soft scale-90 md:scale-100 origin-left">
                           {getIconForFeature(feature.id)}
                         </div>
-                        <h4 className="text-base md:text-lg font-semibold text-white tracking-tight">
+                        <h4 className="text-[15px] md:text-xl font-semibold text-white tracking-tight">
                           {feature.title}
                         </h4>
                       </div>
-                      <p className="text-sm text-brand-light/60 leading-relaxed">
+                      <p className="text-[13px] md:text-base text-brand-light/70 leading-relaxed">
                         {feature.desc}
                       </p>
-                    </div>
-                    
-                    <div className="mt-6 select-none flex justify-between items-end border-t border-white/[0.05] pt-4">
-                      <div className="text-[9px] uppercase tracking-wider text-brand-light/40 font-bold max-w-[100px] leading-tight">
-                        {feature.metricLabel}
-                      </div>
-                      <div className="text-3xl font-light text-brand-soft tracking-tight">
-                        {feature.metric}
-                      </div>
                     </div>
                   </>
                 )}

@@ -5,7 +5,7 @@
     "cta": "Empezar"
   },
   "hero": {
-    "badge": "SOFTWARE EMPRESARIAL",
+    "badge": "AGENCIA DE SOFTWARE EMPRESARIAL",
     "title": "Desarrollo de Software a la Medida",
     "subtitle": "Aplicaciones web, móviles y automatización para empresas.",
     "primaryCTA": "Cotizar Proyecto",
@@ -13,176 +13,178 @@
     "indicators": ["Más control", "Menos errores", "Más ventas", "Más rentabilidad"]
   },
   "painPoints": {
-    "title": "¿Te identificas con alguno de estos problemas?",
+    "title1": "TU NEGOCIO NO NECESITA ",
+    "titleHighlight": "MÁS HOJAS DE EXCEL",
+    "subtitle": "Necesita procesos que funcionen solos.",
+    "description": "A medida que una empresa crece, aparecen los mismos problemas:",
     "points": [
-      "No sabes cuánto inventario tienes realmente.",
-      "Pierdes ventas por falta de stock o descontrol.",
-      "Todo se maneja peligrosamente en hojas de Excel."
-    ]
+      "Información dispersa entre múltiples herramientas.",
+      "Procesos manuales que consumen tiempo.",
+      "Errores operativos que generan pérdidas.",
+      "Falta de visibilidad sobre lo que realmente ocurre.",
+      "Decisiones tomadas sin información actualizada."
+    ],
+    "conclusion": "Mientras tu equipo trabaja más, la operación se vuelve más compleja.",
+    "solution": "Nosotros diseñamos software que elimina esos cuellos de botella y convierte tu negocio en una operación más rápida, organizada y rentable."
   },
-  "customSoftware": {
-    "title1": "Deja de adaptar tu negocio al software. ",
-    "titleHighlight": "Nosotros adaptamos el software a tu negocio.",
-    "description": "Cada negocio es diferente. Tu sistema operativo también debería serlo.",
-    "industries": [
-      {
-        "name": "Restaurantes",
-        "features": ["Control de mesas", "Pedidos", "Cocina", "Facturación", "Inventario"]
-      },
-      {
-        "name": "Ferreterías",
-        "features": ["Inventario", "Compras", "Ventas", "Proveedores"]
-      },
-      {
-        "name": "Distribuidoras",
-        "features": ["Control de rutas", "Facturación", "Cartera"]
-      },
-      {
-        "name": "Empresas de Servicios",
-        "features": ["CRM", "Seguimiento comercial", "Automatización"]
-      }
-    ]
+  "process": {
+    "title1": "CONVERTIMOS PROCESOS MANUALES ",
+    "titleHighlight": "EN SISTEMAS INTELIGENTES",
+    "steps": [
+      "Analizamos tu operación.",
+      "Detectamos cuellos de botella.",
+      "Diseñamos una solución adaptada a tu negocio.",
+      "Automatizamos tareas repetitivas.",
+      "Centralizamos la información en tiempo real."
+    ],
+    "conclusion": "El resultado es una empresa más rápida,",
+    "conclusionHighlight": "organizada y rentable."
   },
-  "mobileApps": {
-    "title1": "Tus clientes viven ",
-    "titleHighlight": "en su celular.",
-    "description": "Si tu negocio no está en el bolsillo de tus clientes, estás perdiendo oportunidades todos los días.",
-    "apps": ["App para restaurantes", "App para domicilios", "App financiera", "App de reservas", "App de membresías", "App educativa"]
+  "approach": {
+    "title1": "TU NEGOCIO ES ÚNICO. ",
+    "titleHighlight": "TU SOFTWARE TAMBIÉN DEBERÍA SERLO.",
+    "paragraphs": [
+      "No vendemos software genérico.",
+      "Diseñamos herramientas adaptadas a la forma exacta en que trabaja tu empresa.",
+      "Cada proyecto se construye desde cero para resolver necesidades reales y generar resultados medibles."
+    ]
   },
   "optimizedLanding": {
-    "title1": "Potencia tu emprendimiento con ",
-    "titleHighlight": "tu propia página web.",
-    "before": {
-      "title": "Antes",
-      "traffic": "1000 visitas",
-      "conversions": "10 clientes"
-    },
-    "after": {
-      "title": "Después",
-      "traffic": "1000 visitas",
-      "conversions": "80 clientes"
-    },
+    "title1": "PÁGINAS WEB QUE ",
+    "titleHighlight": "GENERAN CLIENTES",
     "features": [
       {
         "id": "hero",
-        "title": "Más clientes para tu negocio",
-        "desc": "Transformamos visitantes en oportunidades reales de venta.",
-        "metric": "+80%",
-        "metricLabel": "Más oportunidades de negocio",
+        "title": "Diseño profesional",
+        "desc": "Creamos sitios web diseñados para convertir visitantes en oportunidades reales de negocio.",
+        "metric": "100%",
+        "metricLabel": "A la medida",
         "highlight": true
       },
       {
         "id": "seo",
-        "title": "Aparece en Google",
-        "desc": "Haz que las personas te encuentren antes que a tu competencia.",
+        "title": "Optimización para Google",
+        "desc": "Tu página web sigue trabajando incluso cuando tu negocio está cerrado.",
         "metric": "#1",
-        "metricLabel": "En búsquedas de Google"
+        "metricLabel": "En búsquedas"
+      },
+      {
+        "id": "whatsapp",
+        "title": "Integración con WhatsApp",
+        "desc": "Atención rápida.",
+        "metric": "1 clic",
+        "metricLabel": "Para charlar"
       },
       {
         "id": "speed",
-        "title": "Sitio web ultrarrápido",
-        "desc": "Una experiencia fluida que evita perder clientes.",
+        "title": "Carga ultrarrápida",
+        "desc": "Sin esperas.",
         "metric": "<1s",
         "metricLabel": "Tiempo de carga"
       },
       {
-        "id": "whatsapp",
-        "title": "Clientes contactándote 24/7",
-        "desc": "Formularios y WhatsApp trabajando para ti automáticamente.",
-        "metric": "1 clic",
-        "metricLabel": "Contacto por WhatsApp"
-      },
-      {
         "id": "automation",
-        "title": "Automatización inteligente",
-        "desc": "Menos tareas manuales, más tiempo para crecer.",
+        "title": "Formularios inteligentes",
+        "desc": "Captación directa.",
         "metric": "24/7",
-        "metricLabel": "Captación automática"
+        "metricLabel": "Captación"
       }
     ]
   },
-  "customRules": {
-    "badge": "Software a la Medida",
-    "title": "Desarrollamos software adaptado a las reglas de tu negocio.",
-    "desc": "Creamos soluciones personalizadas que se ajustan a tus procesos, objetivos y forma de trabajar. Tu empresa no tiene que adaptarse al software; el software se adapta a tu empresa.",
-    "sequence": [
-      "La plataforma operativa para tu Restaurante",
-      "El centro de control digital para tu Empresa",
-      "Sistemas inteligentes a la medida de tu negocio"
-    ]
-  },
-  "impactStats": {
-    "stats": [
-      { "value": "95", "suffix": "%", "label": "de los problemas operativos pueden automatizarse." },
-      { "value": "40", "suffix": "%", "label": "menos tiempo en tareas repetitivas." },
-      { "value": "3", "suffix": "X", "label": "más velocidad operativa en tu negocio." },
-      { "value": "24", "suffix": "/7", "label": "acceso a información clave en tiempo real." }
-    ]
-  },
-  "visualUseCases": {
-    "title1": "Diseñamos sistemas que",
-    "titleHighlight": "inspiran y controlan.",
-    "description": "Interfaces impactantes enfocadas en la usabilidad de tus empleados y clientes.",
-    "cases": [
-      { "title": "Inventarios", "type": "Dashboards" },
-      { "title": "Facturación", "type": "Finanzas" },
-      { "title": "POS para Restaurantes", "type": "Operación" },
-      { "title": "ERP a la Medida", "type": "Empresarial" },
-      { "title": "CRM de Ventas", "type": "Crecimiento" },
-      { "title": "Aplicaciones Móviles", "type": "Clientes" }
-    ]
+  "midCTA": {
+    "title1": "SOLUCIONES DISEÑADAS ",
+    "titleHighlight": "PARA ESCALAR",
+    "paragraphs": [
+      "La tecnología correcta no solo organiza tu negocio.",
+      "Te permite crecer sin aumentar el caos operativo."
+    ],
+    "btn": "Hablar con un experto"
   },
   "featuredProjects": {
-    "title1": "La herramienta exacta que",
-    "titleHighlight": "tu negocio necesita",
-    "description": "No te conformes con plantillas. Diseñamos soluciones digitales de alta gama adaptadas a tu marca.",
+    "title1": "APLICACIONES ",
+    "titleHighlight": "A TU MEDIDA",
+    "description": "Lleva tu negocio al siguiente nivel operativo.",
     "viewAll": "Cotizar ahora",
     "projects": [
       {
-        "title": "Sistemas Financieros Inteligentes",
-        "category": "Finanzas & Control",
-        "tech": ["Dashboards en tiempo real", "Alta seguridad", "Análisis de rentabilidad"]
+        "title": "DESARROLLO ANDROID",
+        "category": "Expande tu alcance en Google Play",
+        "tech": ["Apps de Delivery (Rappi, Uber Eats)", "Tiendas Virtuales y E-commerce", "Agendamiento de Citas (Barberías, Clínicas)", "Fintech y Billeteras Virtuales", "Alta compatibilidad"]
       },
       {
-        "title": "Software para Gestión Empresarial",
-        "category": "Operación & ERP",
-        "tech": ["Diseños modernos", "Automatización total", "Reportes dinámicos"]
+        "title": "DESARROLLO iOS",
+        "category": "Lleva tu negocio a los usuarios de Apple",
+        "tech": ["Aplicaciones nativas iPhone", "Notificaciones en tiempo real", "Seguimiento de pedidos", "Gestión de clientes", "Diseño Premium"]
       },
       {
-        "title": "Apps Móviles Propias",
-        "category": "Ventas & Clientes",
-        "tech": ["Experiencia Premium", "Fidelización", "Ventas 24/7"]
+        "title": "SOFTWARE Y APPS A MEDIDA",
+        "category": "Menos trabajo manual. Más productividad",
+        "tech": ["Registros automáticos", "Notificaciones inteligentes", "Seguimientos automáticos", "Flujos de aprobación", "Reportes instantáneos"]
       }
     ]
   },
+  "aiIntegration": {
+    "badge": "SOLUCIONES ESCALABLES",
+    "title1": "Software a medida ",
+    "titleHighlight": "para tu negocio",
+    "subtitle": "Automatización, integración y analítica avanzada cuando realmente aporta valor.",
+    "cta": "Hablar con un experto",
+    "description": "“No usamos IA por moda. La usamos cuando mejora tu negocio.”",
+    "features": [
+      "Automatización inteligente de tareas repetitivas",
+      "Asistentes internos para procesos operativos",
+      "Análisis de datos para toma de decisiones",
+      "Optimización de flujos de trabajo",
+      "Predicción de comportamiento operativo (cuando aplica)"
+    ]
+  },
+  "benefits": {
+    "title1": "QUÉ OBTIENE ",
+    "titleHighlight": "TU EMPRESA",
+    "items": [
+      "Más control operativo",
+      "Menos errores humanos",
+      "Información en tiempo real",
+      "Procesos más rápidos",
+      "Mejor atención al cliente",
+      "Mayor capacidad de crecimiento",
+      "Decisiones respaldadas por datos"
+    ]
+  },
+  "dividerText": {
+    "title1": "NO VENDEMOS ",
+    "titleHighlight": "SOFTWARE",
+    "subtitle": "Diseñamos sistemas que permiten que tu negocio crezca sin aumentar el caos."
+  },
   "testimonials": {
-    "title1": "No confíes en promesas,",
-    "titleHighlight": "confía en resultados.",
+    "title1": "CASOS DE ",
+    "titleHighlight": "ÉXITO",
     "items": [
       {
-        "quote": "Pasamos de llevar inventario en cuadernos a controlar de forma automatizada más de 5.000 productos. Nuestras pérdidas desaparecieron.",
+        "quote": "Pasamos de llevar inventario en cuadernos a controlar más de 5.000 productos desde una sola plataforma.",
         "author": "Carlos Gómez",
         "role": "CEO, Ferreterías Unidas"
       },
       {
-        "quote": "Redujimos los errores de facturación en un 90%. El sistema se pagó solo en los primeros 3 meses de uso.",
+        "quote": "Redujimos los errores de facturación y mejoramos la productividad de nuestro equipo.",
         "author": "Mariana Ruiz",
-        "role": "Directora Financiera, Logística Global"
+        "role": "Directora Financiera"
       },
       {
-        "quote": "Ahora sabemos exactamente cuánto ganamos cada día. El dashboard nos muestra márgenes en tiempo real. Increíble.",
+        "quote": "Ahora sabemos exactamente qué ocurre en nuestro negocio cada día gracias a los dashboards en tiempo real.",
         "author": "Andrés Felipe",
-        "role": "Dueño, Grupo Gastronómico"
+        "role": "Grupo Gastronómico"
       }
     ]
   },
   "contactCTA": {
-    "urgencyTitle": "Descubre el verdadero potencial de tu operación.",
-    "urgencySub": "Sistemas inteligentes diseñados para optimizar tus procesos, aumentar tu rentabilidad y darte tranquilidad total.",
-    "urgencyBtn": "Solicitar Cotización",
-    "finalTitle1": "Lleva tu negocio ",
-    "finalTitleHighlight": "al siguiente nivel.",
-    "finalSub": "Software a la medida. Aplicaciones móviles. Experiencias digitales de alta gama.",
-    "finalBtn": "Hablar con un especialista"
+    "finalTitle1": "¿LISTO PARA DIGITALIZAR ",
+    "finalTitleHighlight": "TU NEGOCIO?",
+    "paragraphs": [
+      "Creamos software que se adapta a tu empresa.",
+      "No obligamos a tu empresa a adaptarse al software.",
+      "Hablemos sobre tu proyecto."
+    ],
+    "finalBtn": "Hablar con un Especialista"
   }
 }

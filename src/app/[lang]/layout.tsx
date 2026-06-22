@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Geist } from "next/font/google";
 import "../globals.css";
 
-const inter = Inter({
+const geist = Geist({
   variable: "--font-sans",
   subsets: ["latin"],
 });
@@ -26,7 +26,7 @@ export default async function RootLayout({
   return (
     <html
       lang={lang}
-      className={`dark ${inter.variable} h-full antialiased`}
+      className={`dark ${geist.variable} h-full antialiased`}
       suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col">

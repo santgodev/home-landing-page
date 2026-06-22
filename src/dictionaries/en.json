@@ -1,188 +1,190 @@
 {
   "header": {
     "logo": "Colombian Home",
-    "links": ["Mobile Apps", "Landing Pages", "Custom Software"],
-    "cta": "Get Started"
+    "links": ["Apps Móviles", "Landing Pages", "Software a la Medida"],
+    "cta": "Empezar"
   },
   "hero": {
-    "badge": "ENTERPRISE SOFTWARE",
-    "title": "Custom Software Development",
-    "subtitle": "Web apps, mobile apps, and enterprise automation.",
-    "primaryCTA": "Quote Project",
-    "secondaryCTA": "Watch Demo",
-    "indicators": ["More control", "Fewer errors", "More sales", "Higher profitability"]
+    "badge": "AGENCIA DE SOFTWARE EMPRESARIAL",
+    "title": "Desarrollo de Software a la Medida",
+    "subtitle": "Aplicaciones web, móviles y automatización para empresas.",
+    "primaryCTA": "Cotizar Proyecto",
+    "secondaryCTA": "Ver demostración",
+    "indicators": ["Más control", "Menos errores", "Más ventas", "Más rentabilidad"]
   },
   "painPoints": {
-    "title": "Do you identify with any of these problems?",
+    "title1": "TU NEGOCIO NO NECESITA ",
+    "titleHighlight": "MÁS HOJAS DE EXCEL",
+    "subtitle": "Necesita procesos que funcionen solos.",
+    "description": "A medida que una empresa crece, aparecen los mismos problemas:",
     "points": [
-      "You don't know how much inventory you really have.",
-      "You lose sales due to lack of stock or control.",
-      "Everything is dangerously managed in Excel sheets."
-    ]
+      "Información dispersa entre múltiples herramientas.",
+      "Procesos manuales que consumen tiempo.",
+      "Errores operativos que generan pérdidas.",
+      "Falta de visibilidad sobre lo que realmente ocurre.",
+      "Decisiones tomadas sin información actualizada."
+    ],
+    "conclusion": "Mientras tu equipo trabaja más, la operación se vuelve más compleja.",
+    "solution": "Nosotros diseñamos software que elimina esos cuellos de botella y convierte tu negocio en una operación más rápida, organizada y rentable."
   },
-  "customSoftware": {
-    "title1": "Stop adapting your business to the software. ",
-    "titleHighlight": "We adapt the software to your business.",
-    "description": "Every business is different. Your operating system should be too.",
-    "industries": [
-      {
-        "name": "Restaurants",
-        "features": ["Table management", "Orders", "Kitchen displays", "Billing", "Inventory"]
-      },
-      {
-        "name": "Hardware Stores",
-        "features": ["Inventory", "Purchases", "Sales", "Suppliers"]
-      },
-      {
-        "name": "Distributors",
-        "features": ["Route control", "Billing", "Accounts receivable"]
-      },
-      {
-        "name": "Service Companies",
-        "features": ["CRM", "Sales tracking", "Automation"]
-      }
-    ]
+  "process": {
+    "title1": "CONVERTIMOS PROCESOS MANUALES ",
+    "titleHighlight": "EN SISTEMAS INTELIGENTES",
+    "steps": [
+      "Analizamos tu operación.",
+      "Detectamos cuellos de botella.",
+      "Diseñamos una solución adaptada a tu negocio.",
+      "Automatizamos tareas repetitivas.",
+      "Centralizamos la información en tiempo real."
+    ],
+    "conclusion": "El resultado es una empresa más rápida,",
+    "conclusionHighlight": "organizada y rentable."
   },
-  "mobileApps": {
-    "title1": "Your clients live ",
-    "titleHighlight": "on their phones.",
-    "description": "If your business isn't in your customers' pockets, you are losing opportunities every day.",
-    "apps": ["Restaurant App", "Delivery App", "Financial App", "Booking App", "Membership App", "Educational App"]
+  "approach": {
+    "title1": "TU NEGOCIO ES ÚNICO. ",
+    "titleHighlight": "TU SOFTWARE TAMBIÉN DEBERÍA SERLO.",
+    "paragraphs": [
+      "No vendemos software genérico.",
+      "Diseñamos herramientas adaptadas a la forma exacta en que trabaja tu empresa.",
+      "Cada proyecto se construye desde cero para resolver necesidades reales y generar resultados medibles."
+    ]
   },
   "optimizedLanding": {
-    "title1": "A pretty page doesn't sell.",
-    "titleHighlight": "An optimized page does.",
-    "before": {
-      "title": "Before",
-      "traffic": "1000 visits",
-      "conversions": "10 clients"
-    },
-    "after": {
-      "title": "After",
-      "traffic": "1000 visits",
-      "conversions": "80 clients"
-    },
+    "title1": "PÁGINAS WEB QUE ",
+    "titleHighlight": "GENERAN CLIENTES",
     "features": [
       {
         "id": "hero",
-        "title": "More Customers for Your Business",
-        "desc": "We transform visitors into real sales opportunities.",
-        "metric": "+80%",
-        "metricLabel": "More business opportunities",
+        "title": "Diseño profesional",
+        "desc": "Creamos sitios web diseñados para convertir visitantes en oportunidades reales de negocio.",
+        "metric": "100%",
+        "metricLabel": "A la medida",
         "highlight": true
       },
       {
         "id": "seo",
-        "title": "Get Found Before Your Competitors",
-        "desc": "Appear exactly where your customers are already searching.",
+        "title": "Optimización para Google",
+        "desc": "Tu página web sigue trabajando incluso cuando tu negocio está cerrado.",
         "metric": "#1",
-        "metricLabel": "On Google Search"
-      },
-      {
-        "id": "speed",
-        "title": "Ultra-Fast Load Times",
-        "desc": "A seamless, fluid experience that keeps visitors engaged.",
-        "metric": "<1s",
-        "metricLabel": "Page load speed"
+        "metricLabel": "En búsquedas"
       },
       {
         "id": "whatsapp",
-        "title": "24/7 Active Inquiries",
-        "desc": "Connect forms and chat channels directly to your inbox.",
-        "metric": "1 click",
-        "metricLabel": "WhatsApp connection"
+        "title": "Integración con WhatsApp",
+        "desc": "Atención rápida.",
+        "metric": "1 clic",
+        "metricLabel": "Para charlar"
+      },
+      {
+        "id": "speed",
+        "title": "Carga ultrarrápida",
+        "desc": "Sin esperas.",
+        "metric": "<1s",
+        "metricLabel": "Tiempo de carga"
       },
       {
         "id": "automation",
-        "title": "Intelligent Lead Capture",
-        "desc": "Cut manual tasks and automate your follow-ups.",
+        "title": "Formularios inteligentes",
+        "desc": "Captación directa.",
         "metric": "24/7",
-        "metricLabel": "Automated capture"
+        "metricLabel": "Captación"
       }
     ]
   },
-  "customRules": {
-    "badge": "Custom Software",
-    "title": "We develop software tailored to your business rules.",
-    "desc": "We build custom solutions that fit your processes, goals, and way of working. Your company doesn't have to adapt to the software; the software adapts to your company.",
-    "sequence": [
-      "The custom operating system for your Restaurant",
-      "The digital control center for your Company",
-      "Intelligent software built for your business scale"
-    ]
-  },
-  "impactStats": {
-    "stats": [
-      { "value": "95", "suffix": "%", "label": "of operational problems can be automated." },
-      { "value": "40", "suffix": "%", "label": "less time spent on repetitive tasks." },
-      { "value": "3", "suffix": "X", "label": "more operational speed in your business." },
-      { "value": "24", "suffix": "/7", "label": "access to key information in real-time." }
-    ]
-  },
-  "visualUseCases": {
-    "title1": "We design systems that",
-    "titleHighlight": "inspire and control.",
-    "description": "Impactful interfaces focused on the usability of your employees and clients.",
-    "cases": [
-      { "title": "Inventories", "type": "Dashboards" },
-      { "title": "Billing", "type": "Finance" },
-      { "title": "Restaurant POS", "type": "Operations" },
-      { "title": "Custom ERP", "type": "Enterprise" },
-      { "title": "Sales CRM", "type": "Growth" },
-      { "title": "Mobile Apps", "type": "Clients" }
-    ]
+  "midCTA": {
+    "title1": "SOLUCIONES DISEÑADAS ",
+    "titleHighlight": "PARA ESCALAR",
+    "paragraphs": [
+      "La tecnología correcta no solo organiza tu negocio.",
+      "Te permite crecer sin aumentar el caos operativo."
+    ],
+    "btn": "Hablar con un experto"
   },
   "featuredProjects": {
-    "title1": "The exact tool that",
-    "titleHighlight": "your business needs",
-    "description": "Don't settle for templates. We design high-end digital solutions tailored to your brand.",
-    "viewAll": "Get a quote",
+    "title1": "SISTEMAS ",
+    "titleHighlight": "A TU MEDIDA",
+    "description": "Lleva tu negocio al siguiente nivel operativo.",
+    "viewAll": "Cotizar ahora",
     "projects": [
       {
-        "title": "Smart Financial Systems",
-        "category": "Finance & Control",
-        "tech": ["Real-time dashboards", "High security", "Profitability analysis"]
+        "title": "DESARROLLO ANDROID",
+        "category": "Expande tu alcance en Google Play",
+        "tech": ["Apps de Delivery (Rappi, Uber Eats)", "Tiendas Virtuales y E-commerce", "Agendamiento de Citas (Barberías, Clínicas)", "Fintech y Billeteras Virtuales", "Alta compatibilidad"]
       },
       {
-        "title": "Enterprise Management Software",
-        "category": "Operations & ERP",
-        "tech": ["Modern designs", "Total automation", "Dynamic reports"]
+        "title": "DESARROLLO iOS",
+        "category": "Lleva tu negocio a los usuarios de Apple",
+        "tech": ["Aplicaciones nativas iPhone", "Notificaciones en tiempo real", "Seguimiento de pedidos", "Gestión de clientes", "Diseño Premium"]
       },
       {
-        "title": "Custom Mobile Apps",
-        "category": "Sales & Clients",
-        "tech": ["Premium Experience", "Loyalty", "24/7 Sales"]
+        "title": "SOFTWARE Y APPS A MEDIDA",
+        "category": "Menos trabajo manual. Más productividad",
+        "tech": ["Registros automáticos", "Notificaciones inteligentes", "Seguimientos automáticos", "Flujos de aprobación", "Reportes instantáneos"]
       }
     ]
   },
+  "aiIntegration": {
+    "badge": "SOLUCIONES ESCALABLES",
+    "title1": "Software a medida ",
+    "titleHighlight": "para tu negocio",
+    "subtitle": "Automatización, integración y analítica avanzada cuando realmente aporta valor.",
+    "cta": "Hablar con un experto",
+    "description": "“No usamos IA por moda. La usamos cuando mejora tu negocio.”",
+    "features": [
+      "Automatización inteligente de tareas repetitivas",
+      "Asistentes internos para procesos operativos",
+      "Análisis de datos para toma de decisiones",
+      "Optimización de flujos de trabajo",
+      "Predicción de comportamiento operativo (cuando aplica)"
+    ]
+  },
+  "benefits": {
+    "title1": "QUÉ OBTIENE ",
+    "titleHighlight": "TU EMPRESA",
+    "items": [
+      "Más control operativo",
+      "Menos errores humanos",
+      "Información en tiempo real",
+      "Procesos más rápidos",
+      "Mejor atención al cliente",
+      "Mayor capacidad de crecimiento",
+      "Decisiones respaldadas por datos"
+    ]
+  },
+  "dividerText": {
+    "title1": "NO VENDEMOS ",
+    "titleHighlight": "SOFTWARE",
+    "subtitle": "Diseñamos sistemas que permiten que tu negocio crezca sin aumentar el caos."
+  },
   "testimonials": {
-    "title1": "Don't trust promises,",
-    "titleHighlight": "trust results.",
+    "title1": "CASOS DE ",
+    "titleHighlight": "ÉXITO",
     "items": [
       {
-        "quote": "We went from keeping inventory in notebooks to automatically controlling over 5,000 products. Our losses disappeared.",
-        "author": "Carlos Gomez",
-        "role": "CEO, United Hardware"
+        "quote": "Pasamos de llevar inventario en cuadernos a controlar más de 5.000 productos desde una sola plataforma.",
+        "author": "Carlos Gómez",
+        "role": "CEO, Ferreterías Unidas"
       },
       {
-        "quote": "We reduced billing errors by 90%. The system paid for itself within the first 3 months of use.",
+        "quote": "Redujimos los errores de facturación y mejoramos la productividad de nuestro equipo.",
         "author": "Mariana Ruiz",
-        "role": "CFO, Global Logistics"
+        "role": "Directora Financiera"
       },
       {
-        "quote": "Now we know exactly how much we make every day. The dashboard shows real-time margins. Incredible.",
-        "author": "Andres Felipe",
-        "role": "Owner, Gastronomic Group"
+        "quote": "Ahora sabemos exactamente qué ocurre en nuestro negocio cada día gracias a los dashboards en tiempo real.",
+        "author": "Andrés Felipe",
+        "role": "Grupo Gastronómico"
       }
     ]
   },
   "contactCTA": {
-    "urgencyTitle": "Discover the true potential of your operation.",
-    "urgencySub": "Intelligent systems designed to optimize your processes, increase your profitability, and give you total peace of mind.",
-    "urgencyBtn": "Request Quote",
-    "finalTitle1": "Take your business ",
-    "finalTitleHighlight": "to the next level.",
-    "finalSub": "Custom software. Mobile applications. High-end digital experiences.",
-    "finalBtn": "Talk to a specialist"
+    "finalTitle1": "¿LISTO PARA DIGITALIZAR ",
+    "finalTitleHighlight": "TU NEGOCIO?",
+    "paragraphs": [
+      "Creamos software que se adapta a tu empresa.",
+      "No obligamos a tu empresa a adaptarse al software.",
+      "Hablemos sobre tu proyecto."
+    ],
+    "finalBtn": "Hablar con un Especialista"
   }
 }
