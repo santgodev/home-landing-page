@@ -12,6 +12,8 @@ export const metadata: Metadata = {
   description: "We build websites, mobile apps, enterprise systems and AI solutions that transform ideas into scalable digital products.",
 };
 
+import { FloatingWhatsApp } from "@/components/ui/FloatingWhatsApp";
+
 export default async function RootLayout({
   children,
   params,
@@ -27,7 +29,10 @@ export default async function RootLayout({
       className={`dark ${inter.variable} h-full antialiased`}
       suppressHydrationWarning
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        {children}
+        <FloatingWhatsApp />
+      </body>
     </html>
   );
 }

@@ -5,15 +5,11 @@
     "cta": "Get Started"
   },
   "hero": {
-    "badge": "Technology Growth Agency",
-    "headline": "Your business is losing money every single day.",
-    "description": "Outdated inventories, lost invoices, manual processes, and lack of financial control are stunting your growth. We build software that gives you control back.",
-    "primaryCTA": "Quote Your System",
-    "secondaryCTA": "See how it works",
-    "sequence": [
-      "Custom Software Development",
-      "Web Apps, Mobile Apps, and Automation"
-    ],
+    "badge": "ENTERPRISE SOFTWARE",
+    "title": "Custom Software Development",
+    "subtitle": "Web apps, mobile apps, and enterprise automation.",
+    "primaryCTA": "Quote Project",
+    "secondaryCTA": "Watch Demo",
     "indicators": ["More control", "Fewer errors", "More sales", "Higher profitability"]
   },
   "painPoints": {

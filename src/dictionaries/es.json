@@ -5,15 +5,11 @@
     "cta": "Empezar"
   },
   "hero": {
-    "badge": "Agencia de Crecimiento Tecnológico",
-    "headline": "Tu negocio está perdiendo dinero todos los días.",
-    "description": "Inventarios desactualizados, facturas perdidas, procesos manuales y falta de control financiero están frenando tu crecimiento. Construimos software que te devuelve el control.",
-    "primaryCTA": "Cotiza tu Sistema",
-    "secondaryCTA": "Ver cómo funciona",
-    "sequence": [
-      "Desarrollo de Software a la Medida",
-      "Aplicaciones Web, Móviles y Automatización"
-    ],
+    "badge": "SOFTWARE EMPRESARIAL",
+    "title": "Desarrollo de Software a la Medida",
+    "subtitle": "Aplicaciones web, móviles y automatización para empresas.",
+    "primaryCTA": "Cotizar Proyecto",
+    "secondaryCTA": "Ver demostración",
     "indicators": ["Más control", "Menos errores", "Más ventas", "Más rentabilidad"]
   },
   "painPoints": {
