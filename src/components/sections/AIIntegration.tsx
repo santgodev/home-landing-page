@@ -1,22 +1,26 @@
 "use client";
 
-import { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { useState, useEffect, useRef } from "react";
+import { motion, AnimatePresence, useInView } from "framer-motion";
 import Image from "next/image";
 import { Sparkles, ArrowRight, X, CheckCircle2 } from "lucide-react";
 import Link from "next/link";
 
 export function AIIntegration({ dict }: { dict: any }) {
   const [activeIndex, setActiveIndex] = useState(0);
+  const containerRef = useRef(null);
+  const isInView = useInView(containerRef, { once: true, amount: 0.3 });
 
   useEffect(() => {
+    if (!isInView) return;
+    
     // Custom timing: 5s for Excel, 8s for Chat
     const duration = activeIndex === 0 ? 5000 : 8000;
     const timeout = setTimeout(() => {
       setActiveIndex((prev) => (prev === 1 ? 0 : 1));
     }, duration);
     return () => clearTimeout(timeout);
-  }, [activeIndex]);
+  }, [activeIndex, isInView]);
 
   if (!dict) return null;
 
@@ -66,6 +70,7 @@ export function AIIntegration({ dict }: { dict: any }) {
 
           {/* Huge Visual/Image Side - Slider (The Hero Mockup) */}
           <motion.div 
+            ref={containerRef}
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "0px 0px -50px 0px" }}
