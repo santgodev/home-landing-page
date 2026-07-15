@@ -22,8 +22,8 @@ export function Header({ dict }: { dict: any }) {
             <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-brand-accent to-brand-soft flex items-center justify-center shadow-[0_0_15px_rgba(142,182,155,0.4)] group-hover:shadow-[0_0_20px_rgba(142,182,155,0.6)] transition-all">
               <div className="w-3 h-3 bg-white rounded-full" />
             </div>
-            <span className="text-2xl font-bold text-white tracking-tight lowercase">
-              evenn<span className="text-brand-soft uppercase tracking-normal">ai</span>
+            <span className="text-2xl font-bold text-white tracking-tight">
+              Eveen<span className="text-brand-soft uppercase tracking-normal">ia</span>
             </span>
           </Link>
 

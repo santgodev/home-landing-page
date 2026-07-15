@@ -1,16 +1,26 @@
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import "../globals.css";
-
+import { getDictionary } from "@/lib/i18n";
+import { Locale } from "@/lib/i18n";
 const geist = Geist({
   variable: "--font-sans",
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Premium Tech Agency | Software that grows your business",
-  description: "We build websites, mobile apps, enterprise systems and AI solutions that transform ideas into scalable digital products.",
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}): Promise<Metadata> {
+  const { lang } = await params;
+  const dict = await getDictionary(lang as Locale);
+
+  return {
+    title: dict.metadata?.title || "EveenIA | Software Agency",
+    description: dict.metadata?.description || "We build scalable digital products.",
+  };
+}
 
 import { FloatingWhatsApp } from "@/components/ui/FloatingWhatsApp";
 
@@ -26,10 +36,10 @@ export default async function RootLayout({
   return (
     <html
       lang={lang}
-      className={`dark ${geist.variable} h-full antialiased`}
+      className={`dark ${geist.variable} antialiased`}
       suppressHydrationWarning
     >
-      <body className="min-h-full flex flex-col">
+      <body className="flex flex-col min-h-[100dvh]">
         {children}
         <FloatingWhatsApp />
       </body>

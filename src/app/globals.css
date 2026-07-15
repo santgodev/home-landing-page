@@ -70,7 +70,7 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground antialiased overflow-x-hidden selection:bg-brand-soft selection:text-brand-primary;
+    @apply bg-background text-foreground antialiased overflow-x-clip selection:bg-brand-soft selection:text-brand-primary;
   }
   
   /* Remove scrollbar for smooth premium feel */

@@ -1,4 +1,8 @@
 {
+  "metadata": {
+    "title": "EveenIA | Agencia de Software e Inteligencia Artificial",
+    "description": "Construimos aplicaciones web, móviles y soluciones de IA que transforman ideas en productos digitales escalables y rentables."
+  },
   "header": {
     "logo": "Colombian Home",
     "links": ["Apps Móviles", "Landing Pages", "Software a la Medida"],

@@ -19,7 +19,7 @@ export default async function Home({ params }: { params: Promise<{ lang: "en" | 
   const dict = await getDictionary(lang);
 
   return (
-    <main className="min-h-screen bg-brand-primary text-foreground selection:bg-brand-soft selection:text-brand-primary pt-20">
+    <main className="min-h-[100dvh] bg-brand-primary text-foreground selection:bg-brand-soft selection:text-brand-primary pt-20">
       <Header dict={dict.header} />
       <Hero dict={dict.hero} />
       <PainPoints dict={dict.painPoints} />
