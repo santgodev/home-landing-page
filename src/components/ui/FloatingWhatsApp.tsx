@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { usePathname } from "next/navigation";
 
 const messages = [
   "+120 conversaciones este mes",
@@ -12,6 +13,7 @@ const messages = [
 export function FloatingWhatsApp() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showMessage, setShowMessage] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
     // Show first message after 3 seconds
@@ -35,6 +37,10 @@ export function FloatingWhatsApp() {
       clearInterval(interval);
     };
   }, []);
+
+  if (pathname?.includes("/save/")) {
+    return null;
+  }
 
   return (
     <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-3 pointer-events-none">
