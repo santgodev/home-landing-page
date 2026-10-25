@@ -1,15 +1,11 @@
 import type { Metadata } from "next";
-import { Geist } from "next/font/google";
+import { GeistSans } from "geist/font/sans";
+import { GeistMono } from "geist/font/mono";
 import "../globals.css";
 import { getDictionary } from "@/lib/i18n";
 import { Locale } from "@/lib/i18n";
 import { SITE_URL, WHATSAPP_PHONE, localizedUrl } from "@/lib/seo";
 import { FloatingWhatsApp } from "@/components/ui/FloatingWhatsApp";
-
-const geist = Geist({
-  variable: "--font-sans",
-  subsets: ["latin"],
-});
 
 // Open Graph usa el formato "idioma_PAÍS".
 const OG_LOCALE: Record<string, string> = {
@@ -120,7 +116,7 @@ export default async function RootLayout({
   return (
     <html
       lang={lang}
-      className={`dark ${geist.variable} antialiased`}
+      className={`dark ${GeistSans.variable} ${GeistMono.variable} antialiased`}
       suppressHydrationWarning
     >
       <body className="flex flex-col min-h-[100dvh]">

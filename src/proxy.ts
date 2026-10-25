@@ -45,5 +45,8 @@ export function proxy(request: NextRequest) {
 
 export const config = {
   // Matcher ignoring `/_next/`, `/api/`, and static files
-  matcher: ["/((?!api|_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp|mp4|webm|ico)).*)"],
+  // Excluye API, estáticos, archivos de imagen/video y los archivos de
+  // metadatos (robots.txt, sitemap.xml). Sin esta exclusión el middleware
+  // les añade prefijo de idioma (/es/robots.txt) y devuelven 404.
+  matcher: ["/((?!api|_next/static|_next/image|favicon.ico|robots.txt|sitemap.xml|.*\\.(?:svg|png|jpg|jpeg|gif|webp|mp4|webm|ico)).*)"],
 };
