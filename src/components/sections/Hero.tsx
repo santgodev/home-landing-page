@@ -77,24 +77,18 @@ export function Hero({ dict }: { dict: any }) {
 
         {/* Static Title and Subtitle */}
         <div className="flex flex-col items-center justify-center w-full max-w-5xl gap-3 md:gap-6">
-          <motion.h1
-            initial={{ opacity: 0, y: 40, filter: "blur(10px)" }}
-            animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-            transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-            className="text-3xl sm:text-5xl md:text-6xl font-bold tracking-tight text-white leading-[1.1] text-glow"
+          {/* Entrada por CSS (no por JS) para que el texto pinte de inmediato
+              y no retrase el LCP esperando la hidratacion de React. */}
+          <h1
+            className="hero-enter text-3xl sm:text-5xl md:text-6xl font-bold tracking-tight text-white leading-[1.1] text-glow"
             style={{ textShadow: "0 10px 40px rgba(0,0,0,0.5), 0 0 20px rgba(142,182,155,0.3)" }}
           >
             {dict.title}
-          </motion.h1>
-          
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
-            className="text-sm sm:text-lg md:text-xl text-brand-light/90 max-w-3xl font-medium"
-          >
+          </h1>
+
+          <p className="hero-enter-delay text-sm sm:text-lg md:text-xl text-brand-light/90 max-w-3xl font-medium">
             {dict.subtitle}
-          </motion.p>
+          </p>
         </div>
 
       </div>
