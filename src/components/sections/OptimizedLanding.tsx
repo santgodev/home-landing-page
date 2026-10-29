@@ -24,9 +24,9 @@ const getIconForFeature = (id: string) => {
 };
 
 const images = [
-  "/landing1.png",
-  "/landing2.png",
-  "/landing3.png"
+  "/landing1.webp",
+  "/landing2.webp",
+  "/landing3.webp"
 ];
 
 interface FeatureItem {
@@ -89,8 +89,10 @@ export function OptimizedLanding({ dict }: OptimizedLandingProps) {
           <AnimatePresence mode="popLayout">
             <motion.img 
               key={index}
-              src={images[index]} 
-              alt={`Optimized Landing Page Design ${index + 1}`} 
+              src={images[index]}
+              alt={`Optimized Landing Page Design ${index + 1}`}
+              loading="lazy"
+              decoding="async"
               initial={{ opacity: 0, scale: 1.08, y: 15 }}
               animate={{ opacity: 1, scale: 1.02, y: 0 }}
               exit={{ opacity: 0, scale: 0.98, y: -15 }}
