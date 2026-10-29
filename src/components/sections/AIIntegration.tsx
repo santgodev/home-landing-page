@@ -87,7 +87,7 @@ export function AIIntegration({ dict }: { dict: any }) {
                    transition={{ duration: 0.4 }}
                    className="absolute inset-0"
                  >
-                    <Image src="/excel_example.png" fill className="object-cover object-left-top" alt="Caos en Excel" />
+                    <Image src="/excel_example.webp" fill className="object-cover object-left-top" alt="Caos en Excel" />
                     
                     {/* Context Header */}
                     <div className="absolute top-3 left-3 sm:top-4 sm:left-4 z-30 scale-90 sm:scale-100 origin-top-left">
@@ -125,7 +125,7 @@ export function AIIntegration({ dict }: { dict: any }) {
                    transition={{ duration: 0.4 }}
                    className="absolute inset-0"
                  >
-                    <Image src="/hero2.png" fill className="object-cover object-left-top" alt="ERP Financiero con IA" />
+                    <Image src="/hero2.webp" fill className="object-cover object-left-top" alt="ERP Financiero con IA" />
                     
                     {/* Context Header */}
                     <div className="absolute top-3 left-3 sm:top-4 sm:left-4 z-30 scale-90 sm:scale-100 origin-top-left">

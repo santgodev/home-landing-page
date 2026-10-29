@@ -9,14 +9,14 @@ const projects = [
     title: "Aura AI Platform",
     category: "Artificial Intelligence",
     tech: ["Next.js", "Python", "OpenAI", "AWS"],
-    image: "/mobile-app2.png",
+    image: "/mobile-app2.webp",
     color: "from-brand-soft to-brand-green-secondary"
   },
   {
     title: "Nexus Enterprise",
     category: "Enterprise Systems",
     tech: ["React", "Spring Boot", "PostgreSQL"],
-    image: "/mobile-app3.png",
+    image: "/mobile-app3.webp",
     color: "from-brand-green-secondary to-brand-primary"
   },
   {

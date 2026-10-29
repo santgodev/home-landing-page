@@ -6,7 +6,7 @@ import { Cpu } from "lucide-react";
 
 const images = [
   "/hero1.png",
-  "/hero2.png"
+  "/hero2.webp"
 ];
 
 interface CustomRulesProps {
@@ -112,10 +112,12 @@ export function CustomRules({ dict }: CustomRulesProps) {
                 <div className="absolute inset-x-0 bottom-0 top-[28px] bg-gradient-to-t from-[#f5f5f7]/95 via-transparent to-transparent z-10 pointer-events-none" />
                 
                 <AnimatePresence mode="popLayout">
-                  <motion.img 
+                  <motion.img
                     key={index}
-                    src={images[index % images.length]} 
-                    alt={`Custom Software Dashboard ${index + 1}`} 
+                    src={images[index % images.length]}
+                    alt={`Custom Software Dashboard ${index + 1}`}
+                    loading="lazy"
+                    decoding="async"
                     initial={{ opacity: 0, scale: 1.1, y: 10 }}
                     animate={{ opacity: 1, scale: 1.03, y: 0 }}
                     exit={{ opacity: 0, scale: 0.97, y: -10 }}
