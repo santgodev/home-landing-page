@@ -8,12 +8,9 @@ import { Button } from "@/components/ui/button";
 export function Hero({ dict }: { dict: any }) {
   const [isInitialBlurred, setIsInitialBlurred] = useState(true);
   const [isLooping, setIsLooping] = useState(false);
-  const [mounted, setMounted] = useState(false);
   const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
-    setMounted(true);
-
     // Cinematic entrance unblur
     const initialTimeout = setTimeout(() => {
       setIsInitialBlurred(false);
@@ -39,11 +36,6 @@ export function Hero({ dict }: { dict: any }) {
     };
   }, []);
 
-  // Don't render animations until mounted to avoid hydration mismatch
-  if (!mounted) {
-    return null;
-  }
-
   return (
     <section className="relative min-h-[100dvh] flex flex-col justify-between overflow-hidden bg-brand-primary">
       {/* Video Background Layer */}
@@ -54,6 +46,8 @@ export function Hero({ dict }: { dict: any }) {
           loop
           muted
           playsInline
+          poster="/hero-poster.webp"
+          preload="metadata"
           className="absolute inset-0 w-full h-full object-cover"
         >
           <source src="/0622.mp4" type="video/mp4" />
