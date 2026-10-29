@@ -19,7 +19,16 @@ export function Hero({ dict }: { dict: any }) {
     const video = videoRef.current;
     if (!video) return () => clearTimeout(initialTimeout);
 
-    video.playbackRate = 0.8;
+    // Cargar el video despues del montaje para no retrasar el LCP.
+    if (!video.src) {
+      video.src = "/0622.mp4";
+      video.load();
+    }
+
+    const handleLoaded = () => {
+      video.playbackRate = 0.8;
+    };
+    video.addEventListener("loadeddata", handleLoaded);
 
     // Blur just before the end of each loop
     const handleTimeUpdate = () => {
@@ -32,6 +41,7 @@ export function Hero({ dict }: { dict: any }) {
 
     return () => {
       clearTimeout(initialTimeout);
+      video.removeEventListener("loadeddata", handleLoaded);
       video.removeEventListener('timeupdate', handleTimeUpdate);
     };
   }, []);
@@ -40,19 +50,27 @@ export function Hero({ dict }: { dict: any }) {
     <section className="relative min-h-[100dvh] flex flex-col justify-between overflow-hidden bg-brand-primary">
       {/* Video Background Layer */}
       <div className="absolute inset-0 z-0">
+        {/* Poster como imagen real: pinta de inmediato y es el elemento LCP
+            (rapido). El video se carga por JS tras el montaje, asi no compite
+            por el LCP. Ambos tienen el mismo tamano, por lo que el video (que
+            pinta despues) no reemplaza a la imagen como LCP. */}
+        <img
+          src="/hero-poster.webp"
+          alt=""
+          aria-hidden="true"
+          fetchPriority="high"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
         <video
           ref={videoRef}
           autoPlay
           loop
           muted
           playsInline
-          poster="/hero-poster.webp"
-          preload="metadata"
+          preload="none"
           className="absolute inset-0 w-full h-full object-cover"
-        >
-          <source src="/0622.mp4" type="video/mp4" />
-        </video>
-        
+        />
+
         {/* Dynamic Blur & Dark Overlay (Cinematic Entrance) */}
         <motion.div 
           animate={{
